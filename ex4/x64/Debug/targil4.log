@@ -1,0 +1,51 @@
+﻿  Client.c
+c:\users\dkravche\source\repos\ex4\ex4\client.c(94): warning C4047: 'function': 'LPDWORD' differs in levels of indirection from 'LPDWORD *'
+c:\users\dkravche\source\repos\ex4\ex4\client.c(94): warning C4024: 'GetExitCodeThread': different types for formal and actual parameter 2
+c:\users\dkravche\source\repos\ex4\ex4\client.c(155): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'DWORD'
+c:\users\dkravche\source\repos\ex4\ex4\client.c(155): warning C4313: 'printf': '%s' in format string conflicts with argument 1 of type 'DWORD'
+c:\users\dkravche\source\repos\ex4\ex4\client.c(156): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'DWORD'
+c:\users\dkravche\source\repos\ex4\ex4\client.c(156): warning C4313: 'sprintf': '%s' in format string conflicts with argument 1 of type 'DWORD'
+c:\users\dkravche\source\repos\ex4\ex4\client.c(187): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'DWORD'
+c:\users\dkravche\source\repos\ex4\ex4\client.c(187): warning C4313: 'printf': '%s' in format string conflicts with argument 1 of type 'DWORD'
+c:\users\dkravche\source\repos\ex4\ex4\client.c(188): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'DWORD'
+c:\users\dkravche\source\repos\ex4\ex4\client.c(188): warning C4313: 'sprintf': '%s' in format string conflicts with argument 1 of type 'DWORD'
+c:\users\dkravche\source\repos\ex4\ex4\client.c(219): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'DWORD'
+c:\users\dkravche\source\repos\ex4\ex4\client.c(219): warning C4313: 'printf': '%s' in format string conflicts with argument 1 of type 'DWORD'
+c:\users\dkravche\source\repos\ex4\ex4\client.c(220): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'DWORD'
+c:\users\dkravche\source\repos\ex4\ex4\client.c(220): warning C4313: 'sprintf': '%s' in format string conflicts with argument 1 of type 'DWORD'
+  Client_IO.c
+c:\users\dkravche\source\repos\ex4\ex4\client_io.c(27): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'DWORD'
+c:\users\dkravche\source\repos\ex4\ex4\client_io.c(27): warning C4313: 'printf': '%s' in format string conflicts with argument 1 of type 'DWORD'
+c:\users\dkravche\source\repos\ex4\ex4\client_io.c(28): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'DWORD'
+c:\users\dkravche\source\repos\ex4\ex4\client_io.c(28): warning C4313: 'sprintf': '%s' in format string conflicts with argument 1 of type 'DWORD'
+  Client_rcv.c
+c:\users\dkravche\source\repos\ex4\ex4\client_rcv.c(55): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\dkravche\source\repos\ex4\ex4\client_rcv.c(77): warning C4101: 'ret_val': unreferenced local variable
+c:\users\dkravche\source\repos\ex4\ex4\client_rcv.c(80): warning C4101: 'lastError': unreferenced local variable
+c:\users\dkravche\source\repos\ex4\ex4\client_rcv.c(81): warning C4101: 'wait_code': unreferenced local variable
+  Client_send.c
+c:\users\dkravche\source\repos\ex4\ex4\client_send.c(83): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  FifoUtil.c
+c:\users\dkravche\source\repos\ex4\ex4\fifoutil.c(17): warning C4133: '=': incompatible types - from 'node *' to 'FifoCell_t *'
+c:\users\dkravche\source\repos\ex4\ex4\fifoutil.c(65): warning C4133: '=': incompatible types - from 'node *' to 'FifoCell_t *'
+c:\users\dkravche\source\repos\ex4\ex4\fifoutil.c(68): warning C4133: '=': incompatible types - from 'FifoCell_t *' to 'node *'
+c:\users\dkravche\source\repos\ex4\ex4\fifoutil.c(82): warning C4133: 'initializing': incompatible types - from 'node *' to 'FifoCell_t *'
+  main.c
+c:\users\dkravche\source\repos\ex4\ex4\main.c(139): warning C4013: 'FindFirstUnusedThreadSlot' undefined; assuming extern returning int
+c:\users\dkravche\source\repos\ex4\ex4\main.c(39): warning C4101: 'ret_val': unreferenced local variable
+c:\users\dkravche\source\repos\ex4\ex4\main.c(31): warning C4101: 'hThread': unreferenced local variable
+c:\users\dkravche\source\repos\ex4\ex4\main.c(47): warning C4101: 'Loop': unreferenced local variable
+c:\users\dkravche\source\repos\ex4\ex4\main.c(38): warning C4101: 'wait_code': unreferenced local variable
+  Server_rcv.c
+c:\users\dkravche\source\repos\ex4\ex4\server_rcv.c(98): warning C4244: 'function': conversion from 'SOCKET' to 'int', possible loss of data
+c:\users\dkravche\source\repos\ex4\ex4\server_rcv.c(102): warning C4047: 'function': 'thread_data *' differs in levels of indirection from 'SOCKET'
+c:\users\dkravche\source\repos\ex4\ex4\server_rcv.c(102): warning C4024: 'SendCommand': different types for formal and actual parameter 2
+c:\users\dkravche\source\repos\ex4\ex4\server_rcv.c(12): warning C4101: 'SendRes': unreferenced local variable
+  Server_sender.c
+c:\users\dkravche\source\repos\ex4\ex4\server_sender.c(210): warning C4101: 'threadUserName': unreferenced local variable
+c:\users\dkravche\source\repos\ex4\ex4\server_sender.c(219): warning C4101: 'SendRes': unreferenced local variable
+  SocketSendRecvTools.c
+  Generating Code...
+c:\users\dkravche\source\repos\ex4\ex4\server_rcv.c(124): warning C4715: 'ServerRcvThread': not all control paths return a value
+c:\users\dkravche\source\repos\ex4\ex4\client_rcv.c(66): warning C4715: 'omitString': not all control paths return a value
+  targil4.vcxproj -> C:\Users\dkravche\source\repos\ex4\x64\Debug\ex4.exe
