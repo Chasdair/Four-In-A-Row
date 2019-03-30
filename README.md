@@ -1,4 +1,4 @@
-                 "# Four-In-A-Row" - Thread Division
+"                 # Four-In-A-Row - Thread Division
 
   Client1                     Server                    Client2 
 
@@ -12,4 +12,4 @@
 | Reciever|          | Sender   |  Sender  |          | Reciever|
 | Thread  | <------- | Thread   |  Thread  | -------> | Thread  |
 |         |          |          |          |          |         |
------------          -----------------------          -----------
+-----------          -----------------------          -----------"
