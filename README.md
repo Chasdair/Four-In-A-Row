@@ -1,5 +1,5 @@
                   Four-In-A-Row
-This a classic 8x8 four-in-a-row-game.
+This a classic 6x7 four-in-a-row-game.
 The .exe should be executed firstly in server mode, and than twice in client mode.
                  Thread Division
 ```
